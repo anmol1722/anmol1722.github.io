@@ -1,0 +1,104 @@
+[
+  {
+    "asset": "petfinder/test-confusion-matrix.png",
+    "document": "Final_Report.docx",
+    "figure": "Appendix Figure 6: XGBoost + TF-IDF, test set",
+    "sha256": "4ab12b6b6372893a1957aeb3b0ce31af714d451e078285f182b104be559abed0"
+  },
+  {
+    "asset": "petfinder/adoption-by-animal.png",
+    "document": "Final_Report.docx",
+    "figure": "Section 3.2: adoption speed by animal type",
+    "sha256": "d133997154a52da0979d3ceb223602468ccc22525935487f4958741cd39c5c18"
+  },
+  {
+    "asset": "petfinder/state-adoption-heatmap.png",
+    "document": "Final_Report.docx",
+    "figure": "Section 3.2: state and adoption-speed heatmap",
+    "sha256": "3f5de4d491aa160f96d717e081937a4a2b8bc02e04ebd45141f0355a18beb631"
+  },
+  {
+    "asset": "yelp/restaurant-dashboard.png",
+    "document": "Assignment_2_Anmol_Saluja.pdf",
+    "figure": "Page 1: Part A: Greater Vancouver restaurant dashboard",
+    "sha256": "528096eefc2ff773a136b8aba69dffbaae639472530eb557e36785afce0e3f94"
+  },
+  {
+    "asset": "yelp/rating-mix.png",
+    "document": "Assignment_2_Anmol_Saluja.pdf",
+    "figure": "Page 3: B1: annual star-rating composition",
+    "sha256": "a565e0ca15764496af6a50e9bef9801b424f52cd9d649698cae2a59e2442790c"
+  },
+  {
+    "asset": "yelp/rating-mix-chart.svg",
+    "document": "Assignment_2_Anmol_Saluja.pdf",
+    "figure": "Page 3: B1: annual star-rating composition; chart-only viewport",
+    "sha256": "521f8c793ad53632a5732520a36bfc11fae946d25a226828fc358073dedd0bba",
+    "source_asset": "yelp/rating-mix.png",
+    "source_sha256": "a565e0ca15764496af6a50e9bef9801b424f52cd9d649698cae2a59e2442790c",
+    "crop": {
+      "x": 366,
+      "y": 177,
+      "width": 1059,
+      "height": 628
+    }
+  },
+  {
+    "asset": "yelp/review-volume.png",
+    "document": "Assignment_2_Anmol_Saluja.pdf",
+    "figure": "Page 4: B2: monthly review volume and COVID marker",
+    "sha256": "7e5374feaf66ccf1884877e869e49abdeff384f13a2bd636db8d554042a05377"
+  },
+  {
+    "asset": "yelp/review-volume-chart.svg",
+    "document": "Assignment_2_Anmol_Saluja.pdf",
+    "figure": "Page 4: B2: monthly review volume and COVID marker; chart-only viewport",
+    "sha256": "b128872a422b5d5e5cf28209fcde0613fdd054a7ece844a01cdb82cb0b62c478",
+    "source_asset": "yelp/review-volume.png",
+    "source_sha256": "7e5374feaf66ccf1884877e869e49abdeff384f13a2bd636db8d554042a05377",
+    "crop": {
+      "x": 366,
+      "y": 177,
+      "width": 1059,
+      "height": 628
+    }
+  },
+  {
+    "asset": "yelp/rating-trend.png",
+    "document": "Assignment_2_Anmol_Saluja.pdf",
+    "figure": "Page 5: B3: pre- and post-COVID average rating",
+    "sha256": "e2976caa24f533cd1a175020a64b791f2b81ec47fe9718b0a727222e914ba792"
+  },
+  {
+    "asset": "yelp/rating-trend-chart.svg",
+    "document": "Assignment_2_Anmol_Saluja.pdf",
+    "figure": "Page 5: B3: pre- and post-COVID average rating; chart-only viewport",
+    "sha256": "75e90f19a5768987856aa03911e8fcc1a4bdb46b385d0854ecd43611b20f9986",
+    "source_asset": "yelp/rating-trend.png",
+    "source_sha256": "e2976caa24f533cd1a175020a64b791f2b81ec47fe9718b0a727222e914ba792",
+    "crop": {
+      "x": 366,
+      "y": 177,
+      "width": 1059,
+      "height": 628
+    }
+  },
+  {
+    "asset": "yelp/reviewer-influence.png",
+    "document": "Assignment_2_Anmol_Saluja.pdf",
+    "figure": "Page 6: C1: reviewer activity versus fans",
+    "sha256": "0db1e74300b05f83835ece7fab228c51dd340129b992a92b5958fd61b317501f"
+  },
+  {
+    "asset": "yelp/cohort-activity.png",
+    "document": "Assignment_2_Anmol_Saluja.pdf",
+    "figure": "Page 7: C2: activity by user joining-year cohort",
+    "sha256": "a64724d4b54ee0d63e994a6ff661918cf0effede711f380b03d0cbdfc646fa15"
+  },
+  {
+    "asset": "pricing/base-price-analysis.R",
+    "document": "assgn indi.R",
+    "figure": "Original analysis code; grocery input CSV is not bundled",
+    "sha256": "44b5c24b7f03dae9bcc57cefb63141f36c578a326e49081bcabbaf1ec566f6aa"
+  }
+]

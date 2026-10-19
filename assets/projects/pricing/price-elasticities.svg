@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="510" viewBox="0 0 900 510" role="img" aria-labelledby="title desc">
+  <title id="title">Own-price elasticity of three laundry detergents</title>
+  <desc id="desc">Approximate coefficients from the supplied presentation, slide 4: Wisk 64 ounces minus 2.98, Tide 128 ounces minus 2.38 and Tide 64 ounces minus 1.49. All three are below minus 1. More negative estimates indicate greater price sensitivity. This is a redrawn chart, not a new regression run.</desc>
+  <rect width="900" height="510" rx="12" fill="#14273b"/>
+  <g font-family="Arial, sans-serif">
+    <text x="38" y="43" fill="#87e6d1" font-size="13" letter-spacing="1.2">PRICING ANALYTICS · NON-PROMOTIONAL WEEKS</text>
+    <text x="38" y="85" fill="#edf4ff" font-size="29" font-weight="700">Which product is most price-sensitive?</text>
+    <text x="38" y="115" fill="#bdd0e5" font-size="16">More negative elasticity = greater estimated sensitivity.</text>
+    <g stroke="#34516b" stroke-width="1">
+      <path d="M274 145V364M449 145V364M625 145V364M800 145V364"/>
+    </g>
+    <path d="M625 145V364" stroke="#c6b5ff" stroke-dasharray="5 6" stroke-width="2"/>
+    <g font-size="19" fill="#edf4ff">
+      <text x="38" y="191">Wisk 64 oz</text>
+      <text x="38" y="266">Tide 128 oz</text>
+      <text x="38" y="341">Tide 64 oz</text>
+    </g>
+    <rect x="277" y="166" width="523" height="40" rx="5" fill="#ffc392"/>
+    <rect x="382" y="241" width="418" height="40" rx="5" fill="#64e4c5"/>
+    <rect x="539" y="316" width="261" height="40" rx="5" fill="#64e4c5"/>
+    <g font-size="19" font-weight="700" fill="#edf4ff" text-anchor="end">
+      <text x="869" y="192">−2.98</text><text x="869" y="267">−2.38</text><text x="869" y="342">−1.49</text>
+    </g>
+    <g font-size="15" fill="#bdd0e5" text-anchor="middle">
+      <text x="274" y="391">−3</text><text x="449" y="391">−2</text><text x="625" y="391">−1</text><text x="800" y="391">0</text>
+      <text x="535" y="422">Own-price elasticity · approximate log–log coefficient</text>
+    </g>
+    <path d="M38 446H862" stroke="#34516b"/>
+    <text x="38" y="476" fill="#bdd0e5" font-size="13">Recreated from Presentation.pptx, slide 4 · 86 stores · 3 products · Observational estimates</text>
+  </g>
+</svg>

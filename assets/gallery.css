@@ -1,0 +1,44 @@
+/* Original application screenshots, kept at their full aspect ratio. */
+.screenshot-section{background:#eeefe6;border-top:1px solid var(--line)}
+.screenshot-heading>p{max-width:330px}
+.screenshot-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px}
+.screenshot-card{margin:0;min-width:0;overflow:hidden;border:1px solid #d2d8c9;border-radius:8px;background:var(--white)}
+.screenshot-open{display:block;text-decoration:none;outline-offset:5px}
+.screenshot-open:focus-visible{outline-offset:-4px;outline:3px solid var(--accent)}
+.screenshot-image{aspect-ratio:16/10;display:flex;align-items:center;justify-content:center;padding:16px;background:#e0e5d8;border-bottom:1px solid #d2d8c9}
+.screenshot-image img{width:100%;height:100%;object-fit:contain;box-shadow:0 3px 15px #203c3212;border-radius:3px}
+.screenshot-action{display:flex;align-items:center;justify-content:space-between;padding:10px 22px;font-size:11px;font-weight:650;line-height:1.6;border-bottom:1px solid var(--line);background:#f4f5ec;transition:background .15s,color .15s}
+.screenshot-action>span{font-size:19px;line-height:1}
+.screenshot-open:hover .screenshot-action,.screenshot-open:focus-visible .screenshot-action{background:var(--ink);color:var(--white)}
+.screenshot-card figcaption{padding:24px 26px 28px}
+.screenshot-label{font-size:8px;font-weight:750;letter-spacing:.13em;color:var(--accent)}
+.screenshot-card h3{font-family:var(--serif);font-size:29px;line-height:1.15;letter-spacing:-.7px;margin:12px 0 0}
+.screenshot-card figcaption p{font-size:12px;color:var(--muted);line-height:1.9;margin:13px 0 0}
+.screenshot-note{margin-top:22px;font-size:10px;line-height:1.8;color:var(--muted)}
+body.screenshot-viewer-open{overflow:hidden}
+.screenshot-viewer{--viewer-inset:16px;box-sizing:border-box;width:min(1400px,calc(100vw - 32px));max-width:none;height:calc(100vh - 32px);height:calc(100dvh - 32px);max-height:calc(100vh - 32px);max-height:calc(100dvh - 32px);margin:auto;padding:0;border:1px solid #cbd2c3;border-radius:10px;background:var(--paper);color:var(--ink);box-shadow:0 24px 100px #10281ec0;overflow:hidden}
+/* An explicit viewport height keeps Safari from collapsing the image's flex track. */
+.screenshot-viewer[open]{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr) auto}
+.screenshot-viewer::backdrop{background:#10281ed9;backdrop-filter:blur(5px)}
+.screenshot-viewer-header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:16px 24px;border-bottom:1px solid var(--line);flex-shrink:0}
+.screenshot-viewer-header>div{min-width:0;overflow-wrap:anywhere}
+.screenshot-viewer-kicker{font-size:8px;font-weight:750;letter-spacing:.14em;color:var(--accent)}
+.screenshot-viewer h2{font-family:var(--serif);font-size:26px;line-height:1.2;letter-spacing:-.6px;margin:4px 0 0}
+.screenshot-viewer-close{display:flex;align-items:center;gap:14px;min-height:44px;padding:7px 12px;border:1px solid #cdd4c4;border-radius:5px;background:transparent;font-size:12px;flex-shrink:0}
+.screenshot-viewer-close>span{font-size:25px;line-height:1;font-weight:400}
+.screenshot-viewer-close:hover,.screenshot-viewer-pagination button:hover{background:#dce3d4}
+.screenshot-viewer-image{position:relative;min-height:0;min-width:0;overflow:hidden;background:#dfe4d8;padding:0}
+.screenshot-viewer-image img{position:absolute;inset:var(--viewer-inset);display:block;width:calc(100% - var(--viewer-inset) - var(--viewer-inset));height:calc(100% - var(--viewer-inset) - var(--viewer-inset));max-width:none;max-height:none;object-fit:contain;object-position:center}
+.screenshot-viewer-footer{padding:16px 24px;flex-shrink:0}
+.screenshot-viewer-footer>p{font-size:12px;line-height:1.8;margin:0;max-width:980px;max-height:18vh;max-height:18dvh;overflow:auto;overscroll-behavior:contain;color:var(--muted)}
+.screenshot-viewer-controls{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:14px}
+.screenshot-viewer-pagination{display:flex;align-items:center;gap:16px}
+.screenshot-viewer-pagination button{width:44px;height:44px;border:1px solid #cdd4c4;border-radius:5px;background:transparent;font-size:20px;line-height:1}
+.screenshot-viewer-pagination>span{font-size:11px;min-width:50px;text-align:center;font-variant-numeric:tabular-nums}
+.screenshot-viewer-controls>a{font-size:11px;font-weight:650;line-height:1.8;text-decoration:underline;text-underline-offset:4px;min-height:44px;display:flex;align-items:center;gap:9px}
+@media(max-width:900px){.screenshot-grid{gap:22px}.screenshot-image{padding:12px}.screenshot-card figcaption{padding:21px}.screenshot-card h3{font-size:26px}}
+@media(max-width:700px){.screenshot-heading{flex-direction:column;gap:16px}.screenshot-heading>p{max-width:none;font-size:12px;padding:0}.screenshot-heading>p br{display:none}.screenshot-grid{grid-template-columns:1fr;gap:22px}.screenshot-image{padding:12px}.screenshot-card h3{font-size:29px}.screenshot-action{padding-inline:20px;min-height:44px}.screenshot-note{font-size:9px}.screenshot-viewer{--viewer-inset:8px;width:calc(100vw - 20px);height:calc(100vh - 20px);height:calc(100dvh - 20px);max-height:calc(100vh - 20px);max-height:calc(100dvh - 20px)}.screenshot-viewer-header{padding:12px;gap:10px}.screenshot-viewer h2{font-size:21px}.screenshot-viewer-kicker{font-size:7px}.screenshot-viewer-close{gap:7px;padding-inline:9px;font-size:11px}.screenshot-viewer-footer{padding:14px}.screenshot-viewer-footer>p{font-size:11px}.screenshot-viewer-controls{gap:10px}.screenshot-viewer-pagination{gap:8px}.screenshot-viewer-pagination>span{font-size:10px;min-width:40px}.screenshot-viewer-controls>a{font-size:10px;gap:5px}}
+@media(max-width:360px){.screenshot-viewer-controls{flex-wrap:wrap}.screenshot-viewer-controls>a{margin-left:auto}}
+@media(max-height:500px){.screenshot-viewer-header{padding-block:8px}.screenshot-viewer-header h2{font-size:18px}.screenshot-viewer-kicker{display:none}.screenshot-viewer-footer{padding-block:8px}.screenshot-viewer-footer>p{display:none}.screenshot-viewer-controls{margin:0;flex-wrap:nowrap}.screenshot-viewer-controls>a{margin-left:0}}
+@media(prefers-reduced-motion:reduce){.screenshot-action{transition:none}}
+@media print{.screenshot-section{background:white}.screenshot-card{break-inside:avoid}.screenshot-action,.screenshot-viewer{display:none!important}.screenshot-grid{gap:20px}.screenshot-card figcaption{padding:14px}.screenshot-card h3{font-size:21px}.screenshot-card figcaption p{font-size:10px}.screenshot-note{font-size:9px}}
