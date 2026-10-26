@@ -20,11 +20,11 @@ Open http://localhost:8788/. No build step, API key, database or Node installati
 - `assets/content.js`: profile, contact details, skills, experience, education and project descriptions.
 - `assets/hiring.css`: typography and shared visual hierarchy.
 - `assets/gallery.js` and `assets/gallery.css`: shared full-image viewer.
-- `assets/Anmol-Saluja-Resume.pdf`: downloadable résumé; keep it synchronized with profile changes.
+- `assets/Anmol-Saluja-Resume-2026-10-26.pdf`: current downloadable résumé, copied unchanged from the user-supplied PDF on 26 October 2026. `assets/Anmol-Saluja-Resume.pdf` serves the same file for existing links.
 
 Push changes to `main` to publish them automatically. GitHub Pages uses **Deploy from a branch → main → /(root)**. `.nojekyll` keeps the existing HTML, CSS, JavaScript and assets intact. Only this static portfolio is hosted here; the live Laptop Intelligence application runs separately on Oracle Cloud.
 
-The original local portfolio checkout can still be used for content edits and résumé generation. Copy its updated `dist/` contents to this repository, review the diff and push to update the public site.
+The original local portfolio checkout can still be used for content edits. Its optional résumé exporter now creates a separate generated draft so it cannot replace the supplied public PDF. Copy updated `dist/` contents to this repository, review the diff and push to update the public site. For a replacement résumé, copy the approved PDF, update the `resume` asset path in `assets/content.js`, and update the HTML script version so visitors receive the new link.
 
 ## Project evidence
 

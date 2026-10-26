@@ -6,7 +6,7 @@ window.PORTFOLIO = {
   linkedin: "https://www.linkedin.com/in/anmol-saluja",
   github: "https://github.com/anmol1722",
   headline: "Data Analytics · Business Analysis · Business Intelligence",
-  resume: "assets/Anmol-Saluja-Resume.pdf",
+  resume: "assets/Anmol-Saluja-Resume-2026-10-26.pdf",
   bio: "I bring together a business foundation, fintech delivery experience at FIS Global and analytics training at UBC Sauder. My work connects business questions with reliable reporting, thoughtful analysis and recommendations that stakeholders can use.",
   summary: "Business analytics professional with UBC Sauder training and experience in fintech delivery and growth strategy. Uses SQL, Python, R, Tableau, Power BI and Excel for data analysis, reporting and stakeholder communication. Built and deployed Laptop Intelligence: an AI research agent combining ETL, semantic search, competitor benchmarking, NLP sentiment, retrieval-augmented generation and data-backed visualizations.",
   personalStory: "Originally from India, my journey has taken me through Seattle to Canada. I chose the MBAN at UBC to deepen my analytical skills and explore how AI can support better business decisions. Now based in Toronto, I’m interested in work that connects data, people and practical outcomes.",
